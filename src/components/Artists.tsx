@@ -1,9 +1,10 @@
+
 import React from 'react';
 
 const artistsData = [
-  { name: 'ARTIST', image: '/lovable-uploads/6de16123-aa64-4f95-9e70-0ccbba2615b6.png' },
-  { name: 'NAMER', image: '/lovable-uploads/6de16123-aa64-4f95-9e70-0ccbba2615b6.png' },
-  { name: 'ARTEN', image: '/lovable-uploads/6de16123-aa64-4f95-9e70-0ccbba2615b6.png' },
+  { name: 'ARTIST', image: '/lovable-uploads/3448e3a3-01e0-4c52-9ff4-d315a2c61630.png' },
+  { name: 'NAMER', image: '/lovable-uploads/ea8320fc-4153-4eef-90dd-ee012c9ab773.png' },
+  { name: 'ARTEN', image: '/lovable-uploads/27fa8e60-2544-440b-aab9-6fb88347e869.png' },
 ];
 
 const Artists = () => {
