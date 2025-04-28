@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Artists from '../components/Artists';
 import Merch from '../components/Merch';
 import { Instagram, Youtube, Github } from 'lucide-react';
 
@@ -9,6 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-black">
       <Navbar />
       <Hero />
+      <Artists />
       
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
