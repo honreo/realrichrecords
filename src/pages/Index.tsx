@@ -6,7 +6,7 @@ import Artists from '../components/Artists';
 import Merch from '../components/Merch';
 import { Instagram, Youtube } from 'lucide-react';
 import { Icon } from 'lucide-react';
-import { Tiktok } from '@lucide/lab';
+import { TikTok } from '@lucide/lab';
 
 const Index = () => {
   return (
@@ -34,7 +34,7 @@ const Index = () => {
           <div className="flex justify-center space-x-6">
             <Instagram className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
             <Youtube className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
-            <Icon iconNode={Tiktok} className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
+            <Icon iconNode={TikTok} className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
           </div>
         </div>
       </section>
