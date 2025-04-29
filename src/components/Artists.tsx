@@ -9,24 +9,24 @@ const Artists = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="relative aspect-[3/4] overflow-hidden flex flex-col">
             <img
-              src="/lovable-uploads/5a4191ab-78f5-4b78-a722-63616824128a.png"
-              alt="Artist in purple hoodie"
+              src="/lovable-uploads/50969e7a-4f49-4620-bb48-1548055f1d0c.png"
+              alt="Artist in sunglasses and leather jacket"
               className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
             />
             <p className="text-xl text-gold text-center mt-4 font-bold">ARTIST</p>
           </div>
           <div className="relative aspect-[3/4] overflow-hidden flex flex-col">
             <img
-              src="/lovable-uploads/05fdde9a-b7d9-411f-b162-87ccacc91647.png"
-              alt="Artist in orange outfit"
+              src="/lovable-uploads/43d53867-4c34-4b69-814d-403f075341d1.png"
+              alt="Artist with long hair"
               className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
             />
             <p className="text-xl text-gold text-center mt-4 font-bold">NAMER</p>
           </div>
           <div className="relative aspect-[3/4] overflow-hidden flex flex-col">
             <img
-              src="/lovable-uploads/d61e3748-ad38-491b-be7b-75c1a1462bf7.png"
-              alt="Artist in black beanie"
+              src="/lovable-uploads/d5aa1187-0c40-420c-b6b3-f0b0e3b7a049.png"
+              alt="Artist in beanie"
               className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
             />
             <p className="text-xl text-gold text-center mt-4 font-bold">ARTEN</p>
