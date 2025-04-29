@@ -16,12 +16,12 @@ const products = [
   {
     name: 'R Logo Snapback',
     price: 35,
-    image: '/lovable-uploads/df8351d4-bb3d-4d46-b55e-e8a8632b4ac2.png'
+    image: '/lovable-uploads/07395e9b-8ef1-46e0-9296-d88f45d4070f.png'
   },
   {
     name: 'REAL Tote',
     price: 25,
-    image: '/lovable-uploads/df8351d4-bb3d-4d46-b55e-e8a8632b4ac2.png'
+    image: '/lovable-uploads/6fc060e8-dc86-4a11-b7eb-85772cb78b20.png'
   }
 ];
 
