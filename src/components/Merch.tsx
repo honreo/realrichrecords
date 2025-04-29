@@ -30,7 +30,7 @@ const Merch = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-5xl font-bold text-gold text-center mb-4">REAL RICH MERCH</h2>
         <p className="text-xl text-gold/80 text-center mb-12">Limited drops. Stay rich.</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 merch-grid">
           {products.map((product, index) => (
             <div key={index} className="product-card">
               <div className="w-full aspect-square mb-4">
