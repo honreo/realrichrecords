@@ -7,10 +7,14 @@ import "../styles/MerchOverride.css";
 import hoodie from "/lovable-uploads/05fdde9a-b7d9-411f-b162-87ccacc91647.png";
 // Keeping existing t-shirt image from the uploaded files
 import tshirt from "/lovable-uploads/13f0e81d-761f-4cbf-8229-e1dbbdca9941.png";
-// Adding the new hoodie image
+// Keeping the black hoodie image
 import blackHoodie from "/lovable-uploads/dfe982aa-6329-40c4-b720-e8d7af104fd4.png";
-// Adding the new t-shirt image
+// Keeping the black t-shirt image
 import blackTshirt from "/lovable-uploads/5869d5a5-d436-4c03-9e64-3c53a38095c0.png";
+// Adding the new tote bag image
+import toteBag from "/lovable-uploads/3e831333-b411-4429-98f7-cc30a210e381.png";
+// Adding the new cap image
+import cap from "/lovable-uploads/96b5c569-bef8-46b9-b575-6902c6febeb5.png";
 
 type Product = {
   id: number;
@@ -26,8 +30,10 @@ export default function Merch() {
   const products: Product[] = [
     { id: 1, name: "Black Hoodie with Gold RR Logo", price: 99.99, image: blackHoodie, type: "Hoodie" },
     { id: 2, name: "Black T-Shirt with Gold RR Logo", price: 49.99, image: blackTshirt, type: "T-Shirt" },
-    { id: 3, name: "Premium White Hoodie", price: 89.99, image: hoodie, type: "Hoodie" },
-    { id: 4, name: "Premium White T-Shirt", price: 39.99, image: tshirt, type: "T-Shirt" },
+    { id: 3, name: "Black Tote Bag with Gold RR Logo", price: 34.99, image: toteBag, type: "Tote Bag" },
+    { id: 4, name: "Black Cap with Gold RR Logo", price: 29.99, image: cap, type: "Cap" },
+    { id: 5, name: "Premium White Hoodie", price: 89.99, image: hoodie, type: "Hoodie" },
+    { id: 6, name: "Premium White T-Shirt", price: 39.99, image: tshirt, type: "T-Shirt" },
   ];
 
   const handleAddToCart = (product: Product) => {
