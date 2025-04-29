@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardFooter } from "./ui/card";
@@ -39,15 +40,20 @@ export default function Merch() {
   };
 
   return (
-    <section className="py-20 md:py-32 bg-[#0F0F0F] relative overflow-hidden">
+    <section id="shop" className="py-20 md:py-32 bg-[#0F0F0F] relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center mb-16 md:mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600">
             REAL RICH MERCH
           </h2>
-          <p className="text-zinc-400 text-center max-w-2xl">
+          <p className="text-zinc-400 text-center max-w-2xl mb-8">
             Exclusive merchandise for the Real Rich community. Limited editions, premium quality.
           </p>
+          <Button 
+            className="bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-black font-bold px-8 py-2 text-lg"
+          >
+            SHOP NOW
+          </Button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -7,8 +7,8 @@ const AboutSection = () => {
   return (
     <section className="py-16 px-4 bg-black">
       <div className="max-w-7xl mx-auto">
-        {/* Latest Release Section */}
-        <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
+        {/* Latest Release Section with Music ID */}
+        <div id="music" className="flex flex-col md:flex-row items-center gap-8 mb-16">
           <div className="w-full md:w-1/2">
             <img 
               src={albumCover} 
@@ -50,7 +50,7 @@ const AboutSection = () => {
         </div>
         
         {/* About Us Section */}
-        <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
+        <div id="about" className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
           <div className="w-full md:w-1/2 text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">ABOUT US</h2>
             <p className="text-xl text-white">Where royalty sounds rich</p>

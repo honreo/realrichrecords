@@ -4,7 +4,7 @@ import { Facebook, Instagram, Twitter, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-16">
+    <footer id="contact" className="bg-black text-white py-16">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo and About */}
@@ -34,10 +34,9 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Artists</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Merchandise</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Events</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#artists" className="text-gray-400 hover:text-white transition-colors">Artists</a></li>
+              <li><a href="#shop" className="text-gray-400 hover:text-white transition-colors">Merchandise</a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
             </ul>
           </div>
           

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Artists = () => {
   return (
-    <section className="py-16 px-4">
+    <section id="artists" className="py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="relative aspect-[3/4] overflow-hidden flex flex-col">
