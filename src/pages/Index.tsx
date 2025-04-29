@@ -24,24 +24,26 @@ const Index = () => {
               />
             </div>
             <div className="w-full md:w-2/3">
-              <h2 className="text-3xl font-bold text-gold mb-8">LATEST RELEASE</h2>
+              <h2 className="text-3xl font-bold text-white mb-8">LATEST RELEASE</h2>
               <div className="flex space-x-6 mb-6">
-                <Music className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
-                <Headphones className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
-                <Youtube className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
+                <Music className="w-8 h-8 text-white hover:text-white/80 cursor-pointer" />
+                <Headphones className="w-8 h-8 text-white hover:text-white/80 cursor-pointer" />
+                <Youtube className="w-8 h-8 text-white hover:text-white/80 cursor-pointer" />
               </div>
             </div>
           </div>
           
-          <div className="mb-16 text-left">
-            <h2 className="text-3xl font-bold text-gold mb-4">ABOUT US</h2>
-            <p className="text-gold/80">Where royalty sounds rich.</p>
-          </div>
-          
-          <div className="flex justify-center space-x-6">
-            <Instagram className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
-            <Youtube className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
-            <Github className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
+          <div className="mb-16 text-left flex justify-between items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gold mb-4">ABOUT US</h2>
+              <p className="text-gold/80">Where royalty sounds rich.</p>
+            </div>
+            
+            <div className="flex space-x-6">
+              <Instagram className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
+              <Youtube className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
+              <Github className="w-6 h-6 text-gold hover:text-gold/80 cursor-pointer" />
+            </div>
           </div>
         </div>
       </section>
