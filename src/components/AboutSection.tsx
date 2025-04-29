@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Apple, Youtube, Spotify } from 'lucide-react';
+import { Apple, Youtube } from 'lucide-react';
 import albumCover from "/lovable-uploads/6ed4da9f-f845-48b6-b3b5-0309938a7432.png";
 
 const AboutSection = () => {
@@ -21,7 +21,23 @@ const AboutSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">LATEST RELEASE</h2>
             <div className="flex gap-6 justify-center md:justify-start">
               <a href="#" className="text-white hover:text-yellow-500 transition-colors">
-                <Spotify size={32} />
+                {/* Custom Spotify SVG icon */}
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="32" 
+                  height="32" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="2" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M8 11.8a6 6 0 019.65 1.17" />
+                  <path d="M8 8.5a8 8 0 0112.5 3.2" />
+                  <path d="M8 14.88a4 4 0 016.2-.5" />
+                </svg>
               </a>
               <a href="#" className="text-white hover:text-yellow-500 transition-colors">
                 <Apple size={32} />
@@ -42,7 +58,23 @@ const AboutSection = () => {
           
           <div className="w-full md:w-1/2 flex justify-center md:justify-end gap-6 items-center">
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">
-              <Spotify size={24} />
+              {/* Custom Spotify SVG icon */}
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="24" 
+                height="24" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M8 11.8a6 6 0 019.65 1.17" />
+                <path d="M8 8.5a8 8 0 0112.5 3.2" />
+                <path d="M8 14.88a4 4 0 016.2-.5" />
+              </svg>
             </a>
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">
               <Apple size={24} />
