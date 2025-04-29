@@ -28,12 +28,10 @@ export default function Merch() {
   const [selectedItems, setSelectedItems] = useState<Product[]>([]);
 
   const products: Product[] = [
-    { id: 1, name: "Black Hoodie with Gold RR Logo", price: 99.99, image: blackHoodie, type: "Hoodie" },
-    { id: 2, name: "Black T-Shirt with Gold RR Logo", price: 49.99, image: blackTshirt, type: "T-Shirt" },
-    { id: 3, name: "Black Tote Bag with Gold RR Logo", price: 34.99, image: toteBag, type: "Tote Bag" },
-    { id: 4, name: "Black Cap with Gold RR Logo", price: 29.99, image: cap, type: "Cap" },
-    { id: 5, name: "Premium White Hoodie", price: 89.99, image: hoodie, type: "Hoodie" },
-    { id: 6, name: "Premium White T-Shirt", price: 39.99, image: tshirt, type: "T-Shirt" },
+    { id: 1, name: "Crown Hoodie", price: 60, image: blackHoodie, type: "Hoodie" },
+    { id: 2, name: "The Real Rich Tee", price: 30, image: blackTshirt, type: "T-Shirt" },
+    { id: 3, name: "Real Tote", price: 25, image: toteBag, type: "Tote Bag" },
+    { id: 4, name: "R Logo Snapback", price: 35, image: cap, type: "Cap" },
   ];
 
   const handleAddToCart = (product: Product) => {
@@ -52,9 +50,9 @@ export default function Merch() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {products.map((product) => (
-            <Card key={product.id} className="bg-[#1A1A1A] border-zinc-800 overflow-hidden transition-all hover:border-yellow-500/50 hover:-translate-y-1 duration-300">
+            <Card key={product.id} className="bg-[#1A1A1A] border-[#8B4513] border-2 overflow-hidden transition-all hover:border-yellow-500/50 hover:-translate-y-1 duration-300">
               <CardContent className="p-0">
                 <div className="relative aspect-square w-full overflow-hidden bg-zinc-900">
                   <img
