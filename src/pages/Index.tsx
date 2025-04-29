@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Artists from '../components/Artists';
 import Merch from '../components/Merch';
-import { Instagram, Youtube, Github, Spotify, Apple } from 'lucide-react';
+import { Instagram, Youtube, Github, Music, Headphones } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -26,8 +26,8 @@ const Index = () => {
             <div className="w-full md:w-2/3">
               <h2 className="text-3xl font-bold text-gold mb-8">LATEST RELEASE</h2>
               <div className="flex space-x-6 mb-6">
-                <Spotify className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
-                <Apple className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
+                <Music className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
+                <Headphones className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
                 <Youtube className="w-8 h-8 text-gold hover:text-gold/80 cursor-pointer" />
               </div>
             </div>
