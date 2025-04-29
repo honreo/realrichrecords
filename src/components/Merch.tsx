@@ -6,22 +6,22 @@ const products = [
   {
     name: 'The Real Rich Tee',
     price: 30,
-    image: '/lovable-uploads/7244be68-f45a-4232-9979-dea78f289625.png'
+    image: '/placeholder.svg'
   },
   {
     name: 'Crown Hoodie',
     price: 60,
-    image: '/lovable-uploads/b0d61785-de30-4f8d-9fbe-ad622185d603.png'
+    image: '/placeholder.svg'
   },
   {
     name: 'R Logo Snapback',
     price: 35,
-    image: '/lovable-uploads/07395e9b-8ef1-46e0-9296-d88f45d4070f.png'
+    image: '/placeholder.svg'
   },
   {
     name: 'REAL Tote',
     price: 25,
-    image: '/lovable-uploads/6fc060e8-dc86-4a11-b7eb-85772cb78b20.png'
+    image: '/placeholder.svg'
   }
 ];
 
@@ -34,11 +34,16 @@ const Merch = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 merch-grid">
           {products.map((product, index) => (
             <div key={index} className="product-card">
-              <div className="w-full aspect-square mb-4">
+              <div className="w-full aspect-square mb-4 bg-gray-900 flex items-center justify-center">
                 <img 
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-contain"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.onerror = null;
+                    target.src = '/placeholder.svg';
+                  }}
                 />
               </div>
               <h3 className="text-xl font-bold text-gold mb-2">{product.name}</h3>
