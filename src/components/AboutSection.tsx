@@ -52,7 +52,12 @@ const AboutSection = () => {
               >
                 <Apple size={32} />
               </a>
-              <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+              <a 
+                href="https://youtube.com/@thumbzrrr?si=-L-Ex-DHeG17xAOH" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-500 transition-colors"
+              >
                 <Youtube size={32} />
               </a>
             </div>
@@ -99,7 +104,12 @@ const AboutSection = () => {
             >
               <Apple size={24} />
             </a>
-            <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+            <a 
+              href="https://youtube.com/@thumbzrrr?si=-L-Ex-DHeG17xAOH"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-yellow-500 transition-colors"
+            >
               <Youtube size={24} />
             </a>
             <a 

@@ -14,16 +14,29 @@ const Footer = () => {
               A showcase of the finest music, art, and merchandise. Join our community and explore the creative world.
             </p>
             <div className="flex space-x-4 pt-4">
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="https://www.facebook.com" 
+                className="hover:text-purple-400 transition-colors"
+              >
                 <Facebook size={20} />
               </a>
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="https://www.instagram.com/thumbzrrr/?utm_source=ig_web_button_share_sheet" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-purple-400 transition-colors"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="https://x.com/thumbzrrr?s=11" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-purple-400 transition-colors"
+              >
                 <Twitter size={20} />
               </a>
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a href="mailto:info@realrich.com" className="hover:text-purple-400 transition-colors">
                 <Mail size={20} />
               </a>
             </div>

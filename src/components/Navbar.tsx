@@ -56,7 +56,14 @@ const Navbar = () => {
             CONTACT
           </a>
         </div>
-        <div className="text-gold">@thunbzzrr</div>
+        <a 
+          href="https://www.instagram.com/thumbzrrr/?utm_source=ig_web_button_share_sheet"
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-gold"
+        >
+          @thunbzzrr
+        </a>
       </div>
     </nav>
   );
