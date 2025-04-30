@@ -4,6 +4,8 @@ import Hero from '../components/Hero';
 import Artists from '../components/Artists';
 import AboutSection from '../components/AboutSection';
 import Merch from '../components/Merch';
+import Songs from '../components/Songs';
+import ArtistPhotos from '../components/ArtistPhotos';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/MerchOverride.css';
@@ -39,8 +41,10 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Artists />
+      <Songs />
       <AboutSection />
       <Merch />
+      <ArtistPhotos />
       <Footer />
     </div>
   );
