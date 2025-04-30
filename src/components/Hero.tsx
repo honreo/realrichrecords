@@ -11,7 +11,14 @@ const Hero = () => {
       />
       <h1 className="text-5xl font-bold text-gold text-center mb-4">REAL RICH RECORDS</h1>
       <p className="text-xl text-gold/80 mb-8">WHERE ROYALTY SOUNDS RICH</p>
-      <button className="gold-button">LISTEN NOW</button>
+      <a 
+        href="https://open.spotify.com/artist/5BJWzVSBmbQFfiTOlJXjO0?si=eR1NV3DhTzGLDaCw2OPs_Q"
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="gold-button"
+      >
+        LISTEN NOW
+      </a>
     </section>
   );
 };
