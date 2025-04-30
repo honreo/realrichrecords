@@ -20,7 +20,12 @@ const AboutSection = () => {
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">LATEST RELEASE</h2>
             <div className="flex gap-6 justify-center md:justify-start">
-              <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+              <a 
+                href="https://open.spotify.com/artist/5BJWzVSBmbQFfiTOlJXjO0?si=eR1NV3DhTzGLDaCw2OPs_Q" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-500 transition-colors"
+              >
                 {/* Custom Spotify SVG icon */}
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -39,7 +44,12 @@ const AboutSection = () => {
                   <path d="M8 14.88a4 4 0 016.2-.5" />
                 </svg>
               </a>
-              <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+              <a 
+                href="https://music.apple.com/us/artist/thumbz/1090686070" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-500 transition-colors"
+              >
                 <Apple size={32} />
               </a>
               <a href="#" className="text-white hover:text-yellow-500 transition-colors">
@@ -57,7 +67,12 @@ const AboutSection = () => {
           </div>
           
           <div className="w-full md:w-1/2 flex justify-center md:justify-end gap-6 items-center">
-            <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+            <a 
+              href="https://open.spotify.com/artist/5BJWzVSBmbQFfiTOlJXjO0?si=eR1NV3DhTzGLDaCw2OPs_Q"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-yellow-500 transition-colors"
+            >
               {/* Custom Spotify SVG icon */}
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -76,13 +91,23 @@ const AboutSection = () => {
                 <path d="M8 14.88a4 4 0 016.2-.5" />
               </svg>
             </a>
-            <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+            <a 
+              href="https://music.apple.com/us/artist/thumbz/1090686070"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-yellow-500 transition-colors"
+            >
               <Apple size={24} />
             </a>
             <a href="#" className="text-white hover:text-yellow-500 transition-colors">
               <Youtube size={24} />
             </a>
-            <a href="#" className="text-white hover:text-yellow-500 transition-colors">
+            <a 
+              href="https://open.spotify.com/artist/5BJWzVSBmbQFfiTOlJXjO0?si=eR1NV3DhTzGLDaCw2OPs_Q"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-yellow-500 transition-colors"
+            >
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 width="24" 
