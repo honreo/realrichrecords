@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { toast } from 'sonner';
 
 interface PasswordProtectionProps {
@@ -12,23 +12,12 @@ const PasswordProtection: React.FC<PasswordProtectionProps> = ({
   onAuthenticated,
 }) => {
   const [password, setPassword] = useState('');
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  useEffect(() => {
-    // Check if already authenticated from localStorage
-    const authStatus = localStorage.getItem('rrrAuthenticated');
-    if (authStatus === 'true') {
-      setIsAuthenticated(true);
-      onAuthenticated();
-    }
-  }, [onAuthenticated]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
     if (password === correctPassword) {
-      localStorage.setItem('rrrAuthenticated', 'true');
-      setIsAuthenticated(true);
+      setPassword('');
       onAuthenticated();
       toast.success('Access granted');
     } else {
@@ -36,10 +25,6 @@ const PasswordProtection: React.FC<PasswordProtectionProps> = ({
       setPassword('');
     }
   };
-
-  if (isAuthenticated) {
-    return null;
-  }
 
   return (
     <div className="fixed inset-0 bg-black z-50 flex items-center justify-center p-4">

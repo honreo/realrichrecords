@@ -20,10 +20,12 @@ const App = () => {
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <PasswordProtection 
-            correctPassword="Latitude" 
-            onAuthenticated={() => setIsAuthenticated(true)} 
-          />
+          {!isAuthenticated && (
+            <PasswordProtection 
+              correctPassword="Latitude" 
+              onAuthenticated={() => setIsAuthenticated(true)} 
+            />
+          )}
           
           {isAuthenticated && (
             <Routes>
