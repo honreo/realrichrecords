@@ -1,12 +1,26 @@
 
 .merchGrid {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 1.5rem !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
-@media (max-width: 640px) {
-  .merchGrid {
-    grid-template-columns: 1fr !important;
-  }
+:root {
+  --color-gold: #D4AF37;
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.border-gold {
+  border-color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
+
+.focus\:ring-gold:focus {
+  --tw-ring-color: var(--color-gold);
 }
